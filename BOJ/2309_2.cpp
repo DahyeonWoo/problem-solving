@@ -12,7 +12,7 @@ void solve(){
     if(sum == 100){ 
       sort(a, a + 7);  
       for(int i = 0; i < r; i++) cout << a[i] << "\n"; 
-      exit(0); // exit(0)은 메인 함수 종료. return이면 solve 함수만 종료이므로 틀림. 
+      exit(0); // exit(0)은 메인 함수 종료를 뜻함. return이라면 solve 함수만 종료이므로 틀림. 
     } 
 }
 
