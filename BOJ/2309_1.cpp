@@ -15,7 +15,6 @@ void solve(){
 			}
 		}
 	}
-	
 }
 
 int main(){
